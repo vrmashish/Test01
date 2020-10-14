@@ -49,24 +49,7 @@ namespace Test01
             this.bookPrice = bookPrice;
             this.bookPublishedDate = bookPublishedDate;
         }
-        class NameSizeException : Exception
-        {
-            public string message;
-            public NameSizeException(String message)
-            {
-                this.message = message;
-            }
-
-        }
-
-        class PriceException : Exception
-        {
-            public string message;
-            public PriceException(String message)
-            {
-                this.message = message;
-            }
-        }
+        
 
     }
 }
